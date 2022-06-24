@@ -14,7 +14,7 @@ import { brands } from '../data'
 test('getName should return the name attribute from an object', () => {
   expect(getName({ name: 'Benny' })).toBe('Benny')
 })
-
+//Comment 
 
 test('printAddress should return a formatted string', () => {
   const input = {
