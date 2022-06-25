@@ -79,14 +79,14 @@ export const addSneakerCount = ({ shoes: [...rest], slogan, logo, headquarters }
 // INPUT: brands from data.js
 // OUTPUT: the brand names listed
 // REQS: use Object.keys to solve
-export const getBrandNames = (obj) => Object.keys(obj);
+export const getBrandNames = (obj) => Object.keys(obj)
 
 // INPUT: brands from data.js
 // OUTPUT: total number of sneaker types across all brands (14)
 export const totalSneakerCount = (obj) => {
-  let sum = 0;
-  Object.keys(obj).forEach((innerObj) => (sum += obj[innerObj].shoes.length));
-  return sum;
+  let sum = 0
+  Object.keys(obj).forEach((innerObj) => (sum += obj[innerObj].shoes.length))
+  return sum
 }
 
 // INPUT: An object
@@ -96,6 +96,6 @@ export const totalSneakerCount = (obj) => {
 // convertToArray({}) => []
 // Source: https://edabit.com/challenge/pPNAs5PvB3WvnDwDM
 
-export const convertToArray = (obj) => Object.entries(obj);
+export const convertToArray = (obj) => Object.entries(obj)
 
 //
